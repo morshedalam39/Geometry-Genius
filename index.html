@@ -21,7 +21,10 @@
   </div>
   
   <div class="">
-    <button class="btn btn-info">blog</button>
+    <a href="blog.html" target="_blank">
+      <button class="btn btn-info">blog</button>
+    </a>
+    
   </div>
 </div>
     </header>
@@ -91,12 +94,12 @@
                       <img src="./images/parallelogram.png" alt="Shoes" class="rounded-xl h-48" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Parallelogram</h2>
+                      <h2 id="third-title" class="card-title">Parallelogram</h2>
                       <p>Area (A) = b x h</p>
-                      <p>b=10cm, h=12cm</p>
+                      <p>b=<span id="thirdCard-firstValue">10</span>cm, h=<span id="thirdCard-secondValue">12</span>cm</p>
                       
                       <div class="card-actions mt-4">
-                        <button class="btn btn-info px-16 text-white">Calculate</button>
+                        <button id="third-card" class="btn btn-info px-16 text-white">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -147,7 +150,7 @@
 
             <!-- calcultion div -->
 
-            <div class="cart-details w-full md:w-[40%] lg:w-[40%] mx-auto">
+            <div class="cart-details w-full md:w-[40%] lg:w-[40%] mx-auto  ">
                 <h1 class="text-3xl text-center font-bold underline mt-5">
                     Area Calculation
                 </h1>
